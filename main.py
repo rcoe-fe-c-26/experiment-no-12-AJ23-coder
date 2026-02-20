@@ -13,6 +13,7 @@ with open("story.txt","r") as file:
   for x in text:
     if (len(x)==length):
       list1.append(x).lower()
-  new_list=sorted(set(list))
+  new_list=sorted(set(list1))
   print(f"Words with length {length} are: {new_list}")
+
 
